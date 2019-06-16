@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+* {
+    box-sizing:border-box;
+    
+}
+
+/*  RESET */
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    font-family: muli;
+    margin:0;
+    line-height: 1.4;
+    height:100vh;
+}
+
+/* .container {
+    max-width:1800px;
+}
+*/
+
+
+/* HEADER */
+
+.header {
+
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+
+}
+
+.header-small {
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-size: cover;
+    }
+
+
+
+
+/* margin beneath header, to make space for content */
+.page-header {
+    margin-bottom:55px;
+}
+
+.header-text {
+
+    padding-left:50px;
+    padding-top:300px;
+}
+
+.header-text p {
+    margin:10px;
+}
+
+
+
+.small {
+font-size: 160%;
+font-weight: bold;
+}
+
+.big {
+    font-size: 190%;
+    font-weight: bold;
+}
+
+/*
+.smallest {
+    
+}
+*/
+
+
+
+h2,
+h3 {
+    font-family: "playfair display", serif;
+    color:#383535;
+}
+
+/* KONTAKTFORMULÄR  */
+
+textarea, input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+  * {border:none;}
+
+
+
+  body {
+    box-sizing: border-box;
+    font-family: muli;
+  }
+
+  .contact-form-input  {
+    border: solid black 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width:402px;
+    width:90%;
+  }
+
+
+textarea {
+  resize: none;
+  border: solid black 2px;
+  height:150px;
+  max-width:402px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.btn-form
+{
+  border: solid black 2px;
+  padding:10px;
+  max-width: 402px;
+  width:90%;
+  color: black;
+  font-family: muli;
+  font-size: 16px;
+  background:inherit;
+}
+
+h2 {
+  font-family: "playfair display";
+  font-size:160%;
+  
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+  font-family: muli;
+  font-size: 16px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+  font-family: muli;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+  font-family: muli;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+  font-family: muli;
+}
+
+h2 {
+  font-family: "playfair display";
+  font-size:160%;
+  
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+  font-family: muli;
+  font-size: 16px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+  font-family: muli;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+  font-family: muli;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+  font-family: muli;
+}
+
+/* knappar */
+
+
+.btn-big {
+    background: #F82C3B;
+    color: #000;
+    font-weight: bold;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    
+    
+}
+/* main menu */
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255,255,255,0.75);
+    width:100%;
+    position: fixed;
+    top:0;
+    /* max-width: 1800px; */
+
+}
+
+
+.navbar-links ul {
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color:#707070;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: #F0F0F0;
+}
+
+.navbar-links .active {
+    background-color: #487056;
+}
+
+/* döljer sök-box från wordpress-plugin */
+.responsive-menu-search-box {
+    display:none;
+}
+
+/* logga/företagsnamn  */
+
+.logo {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: montserrat;
+    color:#F82C3B;
+    padding-left:10px;
+}
+
+
+
+/* TWO COLUMN LAYOUTS */
+
+.column-left {
+    float:left;
+    width:50%;
+    padding:20px;  
+}
+
+.column-right {
+    float:left;
+    width:50%;
+    padding:20px;
+   
+    
+    
+}
+
+/* three column layout */
+
+.three-column {
+    float:left;
+    width:30%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* clear float */
+
+
+.wrapper {
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* ändrar bakgrundsfärgen i första boxen på startsidan */
+  .wrapper-first-box {
+    background-color:#F5F5F5;
+    text-align: center;
+    margin:auto;
+    
+}
+
+
+
+.wrapper-first-box:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  
+
+  .content {
+      width:100%;
+      margin:0 auto;
+  }
+
+
+
+  /* FOOTER DESIGN */
+
+  footer {
+      height:400px;
+      text-align: center;
+  }
+
+  .footer-column-left {
+      width:25%;
+      float:left;
+      background-color:#F0F0F0;
+      height:400px;
+
+  }
+
+  .footer-column-right {
+    width:75%;
+    float:left;
+    background-color: #F5F5F5;
+    height:400px;
+}
+
+.footer-logo {
+    color: #F82C3B;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ONE COLUMN  layout */
+
+/* centered sections */
+.centered {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+section {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.page-image {
+    max-width: 100%;
+    height:100%;
+}
+
+
+.navbar-pages {
+    margin-bottom: 1px;
+}
+
+
+/*
+                  
+
+888             888      888          888    
+888             888      888          888    
+888             888      888          888    
+888888  8888b.  88888b.  888  .d88b.  888888 
+888        "88b 888 "88b 888 d8P  Y8b 888    
+888    .d888888 888  888 888 88888888 888    
+Y88b.  888  888 888 d88P 888 Y8b.     Y88b.  
+ "Y888 "Y888888 88888P"  888  "Y8888   "Y888 
+                                             
+                                             
+                                             
+
+ */
+
+
+
+
+
+
+ @media only screen and (max-width:700px ) {
+
+    .toggle-button {    
+display: flex;
+    }
+
+
+    .navbar-links{
+        width:100%;
+        display: none; 
+    }
+
+
+    .header {
+        height: 70vh;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        background-size: cover;
+        }
+
+    
+        .header-text {
+
+            padding-left:10px;
+            padding-top:150px;
+        }
+        
+        .header-text p {
+            margin:10px;
+        }
+
+    
+        .footer-column-left {
+            width:50%;
+            float:left;
+            background-color:#F0F0F0;
+            height:400px;
+      
+        }
+      
+        .footer-column-right {
+          width:50%;
+          float:left;
+          background-color: #F5F5F5;
+          height:400px;
+      }
+
+      .navbar {
+          height:34px;
+      }
+
+      .logo {
+          font-size: 100%;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+         888                                 
+         888                                 
+         888                                 
+88888b.  88888b.   .d88b.  88888b.   .d88b.  
+888 "88b 888 "88b d88""88b 888 "88b d8P  Y8b 
+888  888 888  888 888  888 888  888 88888888 
+888 d88P 888  888 Y88..88P 888  888 Y8b.     
+88888P"  888  888  "Y88P"  888  888  "Y8888  
+888                                          
+888                                          
+888     
+*/
+
+
+@media only screen and (max-width:600px ) {
+    
+    .column-left, 
+    .column-right {
+        width:100%;
+    }
+
+
+    .three-column {
+        float:left;
+        width:100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    section {
+        padding:10px;
+    }
+
+
+    .footer-column-left {
+        width:100%;
+        float:left;
+        background-color:#F0F0F0;
+        
+  
+    }
+  
+    .footer-column-right {
+      width:100%;
+      float:left;
+      background-color: #F5F5F5;
+      
+  }
+   
+}
+
